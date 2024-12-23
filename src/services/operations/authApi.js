@@ -38,6 +38,7 @@ export function sendOtp(email,navigate){
 
             toast.success("Email sent successfully");
             navigate("/verify-email");
+            toast.success("This is done");
         }
         catch(error){
             console.log("Error in sending OTP : ",error);
